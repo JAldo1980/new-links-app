@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React from "react";
+import LinkDataComponent from "./components/LinkDataComponenet";
 
 import "./App.css";
 
@@ -39,7 +40,7 @@ function App() {
             </div>
           </section>
           <main>
-            <div class=""></div>
+            <LinkDataComponent />
           </main>
         </div>
       </div>
