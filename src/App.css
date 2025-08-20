@@ -1,10 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -22,14 +15,13 @@
   border-radius: 50%;
 }
 
-.social-section{
+.social-section {
   margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
-
 }
 
-.hyper-link-el{
-  cursor-pointer
+.hyper-link-el {
+  cursor: pointer;
 }
