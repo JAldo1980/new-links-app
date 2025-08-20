@@ -3,11 +3,11 @@ import LinkData from "../data/LinkData.jsx";
 
 const LinkDataComponent = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 p-4">
+    <div className="flex flex-col gap-4 p-4">
       {LinkData.map((item, index) => (
         <div
           key={index}
-          className="border rounded-lg shadow p-4 flex flex-col items-center"
+          className="border rounded-lg shadow p-4 flex flex-col items-center bg-blue-500"
         >
           <a
             href={item.link}
