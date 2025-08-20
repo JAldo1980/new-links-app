@@ -1,6 +1,7 @@
 import React from "react";
 import LinkDataComponent from "./components/LinkDataComponenet";
 
+import "./index.css";
 import "./App.css";
 
 function App() {
